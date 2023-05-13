@@ -149,7 +149,7 @@ public class WordSort{
         FileWriter fileLocation = new FileWriter(locationPath.toString() + "/" + location);
         BufferedWriter bufferedWriter = new BufferedWriter(fileLocation);
         // This will write the data into the file
-        for (int i = 0; i < words[0].length; i++) {
+        for (int i = 0; i < words.length; i++) {
             for (int j = 0; j < words[0].length; j++) {
                 bufferedWriter.write(words[i][j] + " ");
         }
