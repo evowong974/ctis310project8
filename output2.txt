@@ -1,0 +1,6 @@
+PS C:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8>  c:; cd 'c:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8'; & 'C:\Program Files\Java\jdk-17.0.5\bin\java.exe' '-XEnter the name of the file to be sorted:
+ctis210_final.txt
+Enter a word to search for:
+credits
+The word credits was found 5 times within this file.
+PS C:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8>

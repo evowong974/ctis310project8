@@ -1,0 +1,13 @@
+PS C:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8>  c:; cd 'c:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8'; & 'C:\Program Files\Java\jdk-17.0.5\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8\target\classes' 'edu.guilford.WordSort'
+Enter the name of the file to be sorted: 
+final_paper_hawaii.txt
+Enter a word to search for: 
+you
+The word you was not found in this file.       
+PS C:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8>  c:; cd 'c:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8'; & 'C:\ProPS C:\Admin\Guilford College\Sophmore Year\SPS C:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8>  c:; cd 'c:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8'; & 'C:\Program Files\Java\jdk-17.0.5\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8\target\classes' 'edu.guilford.WordSort'
+Enter the name of the file to be sorted:
+final_paper_hawaii.txt
+Enter a word to search for:
+hawaii
+The word hawaii was found 27 times within this file.
+PS C:\Admin\Guilford College\Sophmore Year\Spring Semester of 2023\Advanced Programming\GitHub Folder\ctis310project8>

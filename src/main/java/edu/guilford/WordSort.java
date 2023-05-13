@@ -74,30 +74,12 @@ public class WordSort{
         }
             
 }
+
+   
 // Stack is used for the program to read the file and store
 // it where the program can access it.
 // TreeSet is used to sort the temps in alphabetical order automatically post
 // modification. 
-    public static void writeData(String[][] words, String location) throws URISyntaxException, IOException {
-    // Recalling from class, "throws" refers that these errors are not the program's problems 
-    // but the user who had initiated to run this method on the program.
-    // Grab the path of the correct file
-    Path locationPath = Paths.get(WordSort.class.getResource("/edu/guilford/").toURI());
-
-    // Make and open a file in that folder
-    FileWriter fileLocation = new FileWriter(locationPath.toString() + "/" + location);
-    BufferedWriter bufferedWriter = new BufferedWriter(fileLocation);
-    // This will write the data into the file
-    for (int i = 0; i < words[0].length; i++) {
-        for (int j = 0; j < words[0].length; j++) {
-            bufferedWriter.write(words[i][j] + " ");
-    }
-    bufferedWriter.newLine();
-}
-    // This will close the file
-    bufferedWriter.close();
-
-}
     public static String[][] readData(Scanner filescan) {
         Stack<String> stack = new Stack<String>();
         TreeSet<String> sortedWords = new TreeSet<String>();
@@ -157,6 +139,25 @@ public class WordSort{
         return words;
              
     } 
+    public static void writeData(String[][] words, String location) throws URISyntaxException, IOException {
+        // Recalling from class, "throws" refers that these errors are not the program's problems 
+        // but the user who had initiated to run this method on the program.
+        // Grab the path of the correct file
+        Path locationPath = Paths.get(WordSort.class.getResource("/edu/guilford/").toURI());
+    
+        // Make and open a file in that folder
+        FileWriter fileLocation = new FileWriter(locationPath.toString() + "/" + location);
+        BufferedWriter bufferedWriter = new BufferedWriter(fileLocation);
+        // This will write the data into the file
+        for (int i = 0; i < words[0].length; i++) {
+            for (int j = 0; j < words[0].length; j++) {
+                bufferedWriter.write(words[i][j] + " ");
+        }
+        bufferedWriter.newLine();
+    }
+        // This will close the file
+        bufferedWriter.close();
+    }
 }
 
 
